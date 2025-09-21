@@ -88,7 +88,7 @@ export function Footer() {
                 <motion.li key={link.label}>
                   <motion.a
                     href={link.href}
-                    className='hover:text-red-400 inline-block'
+                    className='hover:text-red-500 inline-block'
                     whileHover={{ x: 4 }}
                     transition={{ type: 'spring', stiffness: 300 }}
                   >
