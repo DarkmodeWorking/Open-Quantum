@@ -103,7 +103,7 @@ export default function page() {
           viewport={{ once: true }}
           className="pb-12"
         >
-          <h2 className="text-3xl font-bold mb-6 border-b border-gray-700 pb-2">
+          <h2 className="text-3xl font-bold mb-6 border-b border-purple-500 pb-2">
             {section.title}
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
@@ -111,7 +111,7 @@ export default function page() {
                <Link key={node.id} href={`/encyclopedia/${node.id}`}>
                 <motion.div
                   className="bg-neutral-900 pt-28 p-4 rounded-lg shadow cursor-pointer 
-                             transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,100,100,0.6)]"
+                             transition-all duration-300 hover:shadow-[0_0_40px_rgba(50,255,255,0.6)]"
                   whileHover={{ scale: 1.05, y: -4 }}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
